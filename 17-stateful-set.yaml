@@ -2,10 +2,10 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx-headless
-spec:
   labels:
     app: nginx
     demo: statefulset
+spec:
   ports:
   - port: 80
     name: web
